@@ -100,7 +100,7 @@
         "        plt.quiver(np.add(e_week1[0],e_week2[0]), np.add(e_week1[1], e_week2[1]), e_week3[0], e_week3[1],\r\n",
         "                   angles='xy', scale_units='xy', scale=1, color='green', width=0.0025,\r\n",
         "                   label='Week 3: {:.2f}'.format(np.linalg.norm(e_week3)))\r\n",
-        "        plt.quiver(np.add(e_week1[0] + e_week2[0], e_week3[0]), np.add(e_week1[1] + e_week2[1], e_week3[1]), e_week4[0], e_week4[1],\r\n",
+        "        plt.quiver(np.add(e_week1[0], e_week2[0], e_week3[0]), np.add(e_week1[1], e_week2[1], e_week3[1]), e_week4[0], e_week4[1],\r\n",
         "                   angles='xy', scale_units='xy', scale=1, color='yellow', width=0.0025,\r\n",
         "                   label='Week 4: {:.2f}'.format(np.linalg.norm(e_week4)))\r\n",
         "\r\n",
